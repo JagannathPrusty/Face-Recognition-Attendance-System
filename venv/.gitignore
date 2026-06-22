@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Ignore dataset contents but keep folder
+dataset/*
+!dataset/.gitkeep
+
+# Ignore trainer model
+trainer/*
+!trainer/.gitkeep
+
+# Ignore attendance records (optional)
+attendance/*.csv
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
